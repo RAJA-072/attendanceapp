@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/admin_dashboard_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#f5f5f5">
+
+    <Button
+        android:id="@+id/select_excel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Excel File"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#ffffff"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/broadcastMessageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type broadcast message"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/publishBroadcastBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Publish Broadcast"
+        android:backgroundTint="#2196F3"
+        android:textColor="#ffffff"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>

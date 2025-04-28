@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F5F5"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <!-- Admin Email Field -->
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Admin Email"
+
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:backgroundTint="#BDBDBD"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textEmailAddress"
+        android:importantForAccessibility="yes"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Password Field -->
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:backgroundTint="#BDBDBD"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"
+        android:inputType="textPassword"
+        android:importantForAccessibility="yes"/>
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+        android:importantForAccessibility="yes"/>
+</LinearLayout>
